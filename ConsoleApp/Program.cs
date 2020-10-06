@@ -4,6 +4,8 @@ using BridgePattern;
 using CompositePattern;
 using DecoratorPattern;
 using FacadePattern;
+using FlyWeightPattern;
+using ProxyPattern;
 
 namespace ConsoleApp
 {
@@ -19,8 +21,13 @@ namespace ConsoleApp
             //compositeImpl.Run();
             //decoratorImpl decoratorImpl = new decoratorImpl();
             //decoratorImpl.Run();
-            FacadeImpl facadeImpl = new FacadeImpl();
-            facadeImpl.Run();
+            //FacadeImpl facadeImpl = new FacadeImpl();
+            //facadeImpl.Run();
+            //FlyweightImpl flyweightImpl = new FlyweightImpl();
+            //flyweightImpl.Run();
+
+            ProxyImpl proxyImpl = new ProxyImpl();
+            proxyImpl.Run();
 
             Console.WriteLine("Hello World!");
             Console.ReadKey();

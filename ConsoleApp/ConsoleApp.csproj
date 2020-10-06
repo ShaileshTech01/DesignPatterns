@@ -11,6 +11,8 @@
     <ProjectReference Include="..\Structural\CompositePattern\CompositePattern.csproj" />
     <ProjectReference Include="..\Structural\DecoratorPattern\DecoratorPattern.csproj" />
     <ProjectReference Include="..\Structural\FacadePattern\FacadePattern.csproj" />
+    <ProjectReference Include="..\Structural\FlyWeightPattern\FlyWeightPattern.csproj" />
+    <ProjectReference Include="..\Structural\ProxyPattern\ProxyPattern.csproj" />
   </ItemGroup>
 
 </Project>
